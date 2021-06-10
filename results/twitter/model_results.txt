@@ -1,0 +1,33 @@
+Mean performance over 5 trials
+
+node2vec
+    Test ROC-AUC:   72.58
+    Test F1:        71.94
+
+DeepWalk
+    Test ROC-AUC:   76.88
+    Test F1:        72.42
+
+MNE:
+    Test ROC-AUC:   OOT
+    Test F1:        OOT
+
+R-GCN:
+    Test ROC-AUC:   92.75
+    Test F1:        85.85
+
+R-graphSAGE:
+    Test ROC-AUC:   74.31
+    Test F1:        70.77
+
+GATNE:
+    Test ROC-AUC:   92.94
+    Test F1:        86.20
+
+HAN:
+    Test ROC-AUC:   94.81
+    Test F1:        88.44
+
+RAHMeN:
+    Test ROC-AUC:   94.58 (0.16)
+    Test F1:        88.31 (0.20)
