@@ -1,0 +1,36 @@
+Mean performance over 5 trials
+
+** node2vec, DeepWalk, MNE, GATNE results reproduced from Cen et al. (2019) **
+* Variance not published
+
+node2vec
+    Test ROC-AUC:   94.47
+    Test F1:        87.88
+
+DeepWalk
+    Test ROC-AUC:   94.20
+    Test F1:        87.38
+
+MNE:
+    Test ROC-AUC:   90.28
+    Test F1:        83.25
+
+R-GCN:
+    Test ROC-AUC:   94.96
+    Test F1:        90.08
+
+R-graphSAGE:
+    Test ROC-AUC:   94.88
+    Test F1:        89.39
+
+GATNE:
+    Test ROC-AUC:   96.25
+    Test F1:        91.36
+
+HAN:
+    Test ROC-AUC:   95.28
+    Test F1:        90.43
+
+RAHMeN:
+    Test ROC-AUC:   96.78 (0.03)
+    Test F1:        92.39 (0.03)

@@ -1,0 +1,33 @@
+Mean performance over 5-fold cross validation
+
+node2vec
+    Test ROC-AUC:   51.30
+    Test F1:        64.04
+
+DeepWalk
+    Test ROC-AUC:   58.48
+    Test F1:        67.16
+
+MNE:
+    Test ROC-AUC:   OOT
+    Test F1:        OOT
+
+R-GCN:
+    Test ROC-AUC:   84.19
+    Test F1:        75.98
+
+R-graphSAGE:
+    Test ROC-AUC:   66.61
+    Test F1:        61.59
+
+GATNE:
+    Test ROC-AUC:   79.83
+    Test F1:        71.78
+
+HAN:
+    Test ROC-AUC:   93.05
+    Test F1:        85.98
+
+RAHMeN:
+    Test ROC-AUC:   94.88 (0.20)
+    Test F1:        87.99 (0.26)
