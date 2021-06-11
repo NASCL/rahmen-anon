@@ -1,0 +1,21 @@
+Mean performance over 5 trials
+
+R-GCN:
+    Test ROC-AUC:   78.08
+    Test F1:        70.98
+
+R-graphSAGE:
+    Test ROC-AUC:   71,16
+    Test F1:        65.46
+
+GATNE:
+    Test ROC-AUC:   61.36
+    Test F1:        57.66
+
+HAN:
+    Test ROC-AUC:   87.53 (0.18)
+    Test F1:        79.59 (0.18)
+
+RAHMeN:
+    Test ROC-AUC:   87.93 (0.17)
+    Test F1:        79.94 (0.18)
