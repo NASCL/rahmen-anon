@@ -47,47 +47,47 @@ To train and evaluate a model on the inductive tissue ppi dataset, you can add t
 ### Amazon
 |  | ROC-AUC | F1 |
 |---|---|---|
-node2vec | | |
-DeepWalk | | |
-MNE | | |
-R-graphSAGE | | |
-R-GCN | | |
-GATNE | | |
-HAN | | |
-RAHMeN | | |
+node2vec | 94.47 | 87.88 |
+DeepWalk | 94.20 | 87.38 |
+MNE | 90.28 | 83.25 |
+R-graphSAGE | 94.88 | 89.39 |
+R-GCN | 94.96 | 90.08 |
+GATNE | 96.25 | 91.36 |
+HAN | 95.28 | 90.43 |
+RAHMeN | **96.78** | **92.39** |
 
 ### Twitter
 |  | ROC-AUC | F1 |
 |---|---|---|
-node2vec | | |
-DeepWalk | | |
-MNE | | |
-R-graphSAGE | | |
-R-GCN | | |
-GATNE | | |
-HAN | | |
-RAHMeN | | |
+node2vec | 72.58 | 71.94 |
+DeepWalk | 76.88 | 72.42 |
+MNE | OOT | OOT |
+R-graphSAGE | 74.31 | 70.77 |
+R-GCN | 92.75 | 85.85 |
+GATNE | 92.94 | 86.20 |
+HAN | **94.81** | **88.44** |
+RAHMeN | **94.58** | **88.31** |
 
 ### YouTube
 |  | ROC-AUC | F1 |
 |---|---|---|
-node2vec | | |
-DeepWalk | | |
-MNE | | |
-R-graphSAGE | | |
-R-GCN | | |
-GATNE | | |
-HAN | | |
-RAHMeN | | |
+node2vec | 71.21 | 65.36 |
+DeepWalk | 71.11 | 65.52 |
+MNE | 82.30 | 75.03 |
+R-graphSAGE | 87.02 | 79.93 |
+R-GCN | 80.21 | 73.36 |
+GATNE | 84.47 | 76.83 |
+HAN | 80.43 | 73.43 |
+RAHMeN | **88.64** | **80.58** |
 
 ### Tissue PPI
 |  | ROC-AUC | F1 |
 |---|---|---|
-node2vec | | |
-DeepWalk | | |
-MNE | | |
-R-graphSAGE | | |
-R-GCN | | |
-GATNE | | |
-HAN | | |
-RAHMeN | | |
+node2vec | 51.30 | 64.04 |
+DeepWalk | 58.48 | 67.16 |
+MNE | OOT | OOT |
+R-graphSAGE | 66.61 | 61.59 |
+R-GCN | 84.19 | 75.98 |
+GATNE | 79.83 | 71.78 |
+HAN | 93.05 | 85.98 |
+RAHMeN | **94.88** | **87.99** |
